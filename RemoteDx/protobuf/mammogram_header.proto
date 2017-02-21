@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+enum ImageType {
+    UINT8 = 0;
+    UINT16 = 1;
+    FLOAT32 = 2;
+    RGB = 3;
+    RGBA = 4;
+}
+
+message MammogramHeader {
+    required string image_id = 1;
+    required int32 width = 2;
+    required int32 height = 3;
+    required ImageType imtype = 4;
+}

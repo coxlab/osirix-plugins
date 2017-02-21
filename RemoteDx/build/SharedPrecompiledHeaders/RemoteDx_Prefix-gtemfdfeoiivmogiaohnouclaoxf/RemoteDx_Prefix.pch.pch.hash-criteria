@@ -1,0 +1,22 @@
+-x
+objective-c
+-arch
+x86_64
+-gmodules
+-fpascal-strings
+-O0
+-fno-common
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+-fasm-blocks
+-mmacosx-version-min=10.7
+-g
+-I/Users/davidcox/Repositories/deephealth/osirix-plugins/RemoteDx/build/Development/include
+-I/usr/local/include
+-F/Users/davidcox/Repositories/deephealth/osirix-plugins/RemoteDx/build/Development
+-F/Users/davidcox/Repositories/deephealth/osirix-plugins/RemoteDx/../../osirix/build/Development
+x86_64-apple-darwin16.1.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)"
+SDK_PRODUCT_BUILD_VERSION=16B2649
+16B2649
